@@ -1,0 +1,21 @@
+#button {
+    font-family: cursive;
+    padding: 0.7em 2em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 6px;
+    transition: all 0.5s ease;
+ }
+ #button:active {
+    box-shadow: inset 4px 4px 12px;
+ }
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ 
